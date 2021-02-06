@@ -1,0 +1,24 @@
+.ItemContainer {
+  height: 100%;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.CourseImage {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 82%;
+  box-sizing: border-box;
+  border-radius: 10%;
+  margin: 4% 1%;
+  width: 33%;
+}
+
+.CourseItemContent {
+  height: 82%;
+  box-sizing: border-box;
+  margin: 4% 1%;
+  width: 67%;
+}
