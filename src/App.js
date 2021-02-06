@@ -35,7 +35,7 @@ class App extends Component {
         </div>
       );
     });
-    return <div style={{backgroundColor:'cyan'}}>{loadedCourses}</div>;
+    return <div >{loadedCourses}</div>;
   }
 }
 
