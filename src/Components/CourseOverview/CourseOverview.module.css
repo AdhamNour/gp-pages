@@ -1,0 +1,25 @@
+.CoursePicture {
+  height: 50%;
+  box-sizing: border-box;
+  border-radius: 10%;
+  margin: 4% 1%;
+  width: 90%;
+}
+
+.CourseOverview {
+  /* background-color: cyan; */
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: scroll;
+}
+
+.ButtonsRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.Button{
+    margin: 2% 5%;
+}

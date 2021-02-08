@@ -16,7 +16,7 @@
 
 }
 .CourseOverview{
-  background-color: red;
+  /* background-color: red; */
   flex: 2;
   height: 100vh;
 }
