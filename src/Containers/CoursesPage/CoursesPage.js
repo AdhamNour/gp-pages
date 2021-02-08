@@ -13,14 +13,17 @@ class CoursesPags extends Component {
         1: {
           CourseName: "Distributed Systems",
           DoctorName: "Dr. Gamal Abd El-Shafy",
+          CoursePicture: "https://miro.medium.com/max/2560/1*tYxWuyksovxA1Thu8PggPQ.jpeg"
         },
         2: {
           CourseName: "Physics 2",
           DoctorName: "Dr. Wael Fekry",
+          CoursePicture:"https://cdn.britannica.com/w:1100/50/190450-131-527BAEF7/series-Elementary-Particles-subject-forms-nuclear-physics.jpg"
         },
         3: {
           CourseName: "Math 3",
           DoctorName: "Dr. Makram",
+          CoursePicture:"https://i.pinimg.com/736x/c8/e5/75/c8e5753370bad54c7977d485e0a0e29d.jpg"
         },
       },
       displayedCourse: null,

@@ -4,12 +4,13 @@ import {Button} from "@material-ui/core"
 
 import classes from "./CourseOverview.module.css";
 
-const courseOverview = () => {
-  let imageTest = "https://images3.alphacoders.com/165/thumb-1920-165087.jpg";
+const courseOverview = (props) => {
+  let imageTest = props.CoursePicture;
 
   return (
     <div className={classes.CourseOverview}>
       <img src={imageTest} alt="tst" className={classes.CoursePicture} />
+      <h3>{props.CourseName}</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id lacus
         suscipit massa lobortis tincidunt sed eget lacus. In hac habitasse
