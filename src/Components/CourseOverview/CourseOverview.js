@@ -49,7 +49,7 @@ const courseOverview = (props) => {
       </p>
       <div className ={classes.ButtonsRow} >
         <Button variant="contained" color="primary" className={classes.Button} >
-          Go to Course
+          Go to {props.CourseName}
         </Button>
         <Button color="secondary" className={classes.Button} >
           remove from the stage
