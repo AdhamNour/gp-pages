@@ -3,7 +3,6 @@ import classes from "./CourseListItem.module.css";
 import CourseItemContent from "./CourseItemContent/CourseItemContent";
 class CourseListItem extends Component {
 
-  
   render() {
     const testImage =this.props.CoursePicture;
     let selected = this.props.displayedCourse === this.props.id;

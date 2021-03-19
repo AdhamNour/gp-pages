@@ -33,6 +33,11 @@ class CoursesPags extends Component {
   selectingCourseHandler = (courseid) => {
     this.setState({ displayedCourse: courseid });
   };
+  removingFromTheStageHandler = () => {
+    this.setState({
+      displayedCourse:null
+    })
+  }
 
   render() {
     let loadedCourses = Object.keys(this.state.loadedCourses).map((key) => {
@@ -50,6 +55,7 @@ class CoursesPags extends Component {
       <div className={classes.CourseOverview}>
         <CourseOverView
           {...this.state.loadedCourses[this.state.displayedCourse]}
+          removeHandler = {this.removingFromTheStageHandler}
         />
       </div>
     );
@@ -57,7 +63,6 @@ class CoursesPags extends Component {
       stage = null;
     }
 
-    console.log("From Course Page the dispalyedCourse is "+ this.state.displayedCourse)
 
     return (
       <div className={classes.CoursesPage}>

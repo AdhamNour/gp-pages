@@ -47,11 +47,14 @@ const courseOverview = (props) => {
         Praesent mauris
         
       </p>
+      <div className={classes.DocPic}>
+        {props.DoctorName}
+      </div>
       <div className ={classes.ButtonsRow} >
-        <Button variant="contained" color="primary" className={classes.Button} >
+        <Button variant="contained" color="primary" className={classes.Button} onClick={()=>{alert(`Go to ${props.CourseName}`)}} >
           Go to {props.CourseName}
         </Button>
-        <Button color="secondary" className={classes.Button} >
+        <Button color="secondary" className={classes.Button} onClick={props.removeHandler} >
           remove from the stage
         </Button>
       </div>
