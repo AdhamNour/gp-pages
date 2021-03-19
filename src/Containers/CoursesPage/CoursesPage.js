@@ -12,7 +12,7 @@ class CoursesPags extends Component {
       loadedCourses: {
         1: {
           CourseName: "Distributed Systems",
-          DoctorName: "Dr. Gamal Abd El-Shafy",
+          DoctorName: "Not Dr. Gamal Abd El-Shafy",
           CoursePicture: "https://miro.medium.com/max/2560/1*tYxWuyksovxA1Thu8PggPQ.jpeg"
         },
         2: {
@@ -41,7 +41,7 @@ class CoursesPags extends Component {
           {...this.state.loadedCourses[key]}
           id={key}
           getSelected={this.selectingCourseHandler}
-          height={120}
+          displayedCourse={this.state.displayedCourse}
         />
       );
     });
@@ -56,6 +56,8 @@ class CoursesPags extends Component {
     if (this.state.displayedCourse === null) {
       stage = null;
     }
+
+    console.log("From Course Page the dispalyedCourse is "+ this.state.displayedCourse)
 
     return (
       <div className={classes.CoursesPage}>
