@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import CourseListItem from "../../Components/CourseListItem/CourseListItem";
-import CourseOverView from "../../Components/CourseOverview/CourseOverview";
+import CourseListItem from "../../Components/CoursesPageComponents/CourseListItem/CourseListItem";
+import CourseOverView from "../../Components/CoursesPageComponents/CourseOverview/CourseOverview";
 
 import classes from "./CoursesPage.module.css";
 
