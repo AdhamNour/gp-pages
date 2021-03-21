@@ -7,7 +7,7 @@
 }
 
 .CourseOverview {
-  /* background-color: cyan; */
+  background-color: cyan;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -28,5 +28,6 @@
 
 .DocPic{
   text-align: right;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  padding: 10px;
 }
